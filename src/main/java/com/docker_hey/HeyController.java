@@ -12,5 +12,11 @@ public class HeyController {
         return "hey";
     }
 
+    @GetMapping("/ost")
+    public String getOst()
+    {
+        return "ost";
+    }
+
 
 }
